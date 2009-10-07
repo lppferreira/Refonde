@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>refonde</artifactId>
+		<groupId>org.fudaa</groupId>
+		<version>5.15f-rc4</version>
+	</parent>
+	<groupId>${softGroupId}</groupId>
+	<artifactId>refonde-client</artifactId>
+	<name>refonde-client</name>
+	<dependencies>
+		<dependency>
+			<groupId>${softGroupId}</groupId>
+			<artifactId>refonde-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${softGroupId}</groupId>
+			<artifactId>fudaa-common-dunes</artifactId>
+		</dependency>
+		<dependency>
+            <groupId>${ebliGroupId}</groupId>
+            <artifactId>ebli-2d</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>${fudaaGroupId}</groupId>
+			<artifactId>fudaa-common-corba</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${ebliGroupId}</groupId>
+			<artifactId>ebli-3d</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>${ebliGroupId}</groupId>
+			<artifactId>ebli-3d</artifactId>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>${ebliGroupId}</groupId>
+			<artifactId>ebli-2d</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+</project>
