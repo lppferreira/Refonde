@@ -4,16 +4,16 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.fudaa</groupId>
-		<artifactId>refonde</artifactId>
+		<groupId>org.fudaa.soft.refonde</groupId>
+		<artifactId>project</artifactId>
 		<version>5.15f-rc4</version>
 	</parent>
-	<groupId>${softGroupId}</groupId>
+	<groupId>org.fudaa.soft.refonde</groupId>
 	<artifactId>refonde-server</artifactId>
 	<name>refonde-server</name>
 	<dependencies>
 		<dependency>
-			<groupId>${dodicoGroupId}</groupId>
+			<groupId>org.fudaa.business</groupId>
 			<artifactId>dodico-corba</artifactId>
 		</dependency>
 		<dependency>

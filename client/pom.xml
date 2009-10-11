@@ -4,28 +4,28 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<artifactId>refonde</artifactId>
-		<groupId>org.fudaa</groupId>
+		<groupId>org.fudaa.soft.refonde</groupId>
+		<artifactId>project</artifactId>
 		<version>5.15f-rc4</version>
 	</parent>
-	<groupId>${softGroupId}</groupId>
+	<groupId>org.fudaa.soft.refonde</groupId>
 	<artifactId>refonde-client</artifactId>
 	<name>refonde-client</name>
 	<dependencies>
 		<dependency>
-			<groupId>${softGroupId}</groupId>
+			<groupId>org.fudaa.soft.refonde</groupId>
 			<artifactId>refonde-server</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>${softGroupId}</groupId>
-			<artifactId>fudaa-common-dunes</artifactId>
+			<groupId>org.fudaa.soft.dunes</groupId>
+			<artifactId>fudaa-dunes</artifactId>
 		</dependency>
 		<dependency>
-            <groupId>${ebliGroupId}</groupId>
-            <artifactId>ebli-2d</artifactId>
-        </dependency>
+			<groupId>${ebliGroupId}</groupId>
+			<artifactId>ebli-2d</artifactId>
+		</dependency>
 		<dependency>
-			<groupId>${fudaaGroupId}</groupId>
+			<groupId>org.fudaa.business</groupId>
 			<artifactId>fudaa-common-corba</artifactId>
 		</dependency>
 		<dependency>
