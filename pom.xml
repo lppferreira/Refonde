@@ -7,7 +7,7 @@
 		<!--
 			c'est le projet common-dunes qui définit la plupart des dépendences
 		-->
-		<common-dunes.version>1.0-SNAPSHOT</common-dunes.version>
+		<common-dunes.version>1.0</common-dunes.version>
 	</properties>
 	<parent>
 		<groupId>org.fudaa.pom</groupId>
