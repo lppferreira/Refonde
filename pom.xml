@@ -12,11 +12,11 @@
 	<parent>
 		<groupId>org.fudaa.pom</groupId>
 		<artifactId>soft-pom</artifactId>
-		<version>0.3</version>
+		<version>0.4</version>
 	</parent>
 
 	<groupId>org.fudaa.soft.refonde</groupId>
-	<artifactId>project</artifactId>
+	<artifactId>fudaa-refonde</artifactId>
 	<version>5.15f-rc4</version>
 	<name>Fudaa-Refonde</name>
 	<packaging>pom</packaging>
