@@ -4,20 +4,20 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.fudaa.soft.refonde</groupId>
+		<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 		<artifactId>fudaa-refonde</artifactId>
 		<version>5.15f-rc4</version>
 	</parent>
-	<groupId>org.fudaa.soft.refonde</groupId>
+	<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 	<artifactId>refonde-client</artifactId>
 	<name>refonde-client</name>
 	<dependencies>
 		<dependency>
-			<groupId>org.fudaa.soft.refonde</groupId>
+			<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 			<artifactId>refonde-server</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.fudaa.soft.dunes</groupId>
+			<groupId>org.fudaa.soft.fudaa-dunes</groupId>
 			<artifactId>fudaa-dunes</artifactId>
 		</dependency>
 		<dependency>

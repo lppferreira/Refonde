@@ -15,7 +15,7 @@
 		<version>0.4</version>
 	</parent>
 
-	<groupId>org.fudaa.soft.refonde</groupId>
+	<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 	<artifactId>fudaa-refonde</artifactId>
 	<version>5.15f-rc4</version>
 	<name>Fudaa-Refonde</name>
@@ -27,24 +27,24 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.fudaa.soft.dunes</groupId>
+				<groupId>org.fudaa.soft.fudaa-dunes</groupId>
 				<artifactId>fudaa-dunes</artifactId>
 				<version>${common-dunes.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.fudaa.soft.dunes</groupId>
+				<groupId>org.fudaa.soft.fudaa-dunes</groupId>
 				<artifactId>fudaa-dunes</artifactId>
 				<version>${common-dunes.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.fudaa.soft.refonde</groupId>
+				<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 				<artifactId>refonde-server</artifactId>
 				<version>${version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.fudaa.soft.refonde</groupId>
+				<groupId>org.fudaa.soft.fudaa-refonde</groupId>
 				<artifactId>refonde-client</artifactId>
 				<version>${version}</version>
 			</dependency>
