@@ -11,7 +11,7 @@
 	</properties>
 	<parent>
 		<groupId>org.fudaa.pom</groupId>
-		<artifactId>soft-pom</artifactId>
+		<artifactId>super-pom</artifactId>
 		<version>2.5</version>
 	</parent>
 
